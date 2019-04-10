@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page_1">
+
+    <!-- CADRE SUPERIEUR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:background="@color/colorPrimary">
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/bouton_retour"
+        android:onClick="retour"
+        android:text="retour"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="QUESTION"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:id="@+id/niveau_question"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Indice/reini"
+            android:id="@+id/indice"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bouton_setting"
+            android:text="Setting"/>
+    </LinearLayout>
+
+    <!-- CADRE DE QUESTION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="@color/colorPrimaryDark">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/macron"/>
+    </LinearLayout>
+
+    <!-- CADRE DE REPONSE -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <!-- premiere ligne de reponse -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:layout_weight=".5">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btrep1"
+            android:text="CACA ? pipi ? oui mais mdr non mdr ??"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btrep2"
+            android:text="CACA ?"/>
+    </LinearLayout>
+
+</LinearLayout>
+        <!-- deuxieme ligne de reponse -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:layout_weight=".5">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5">
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:id="@+id/btrep3"
+            android:text="CACA ?"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btrep4"
+            android:text="CACA ?"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

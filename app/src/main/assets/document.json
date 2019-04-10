@@ -1,0 +1,31 @@
+[ {
+    "question": "Question 1",
+    "rep1": "rep 1 question 1",
+    "rep2": "rep 2 question 1",
+    "rep3": "rep 3 question 1",
+    "rep4": "rep 4 question 1",
+    "vrai": 1
+  },
+     {
+    "question": "Question 2",
+       "rep1": "rep 1 question 2",
+       "rep2": "rep 2 question 2",
+       "rep3": "rep 3 question 2",
+       "rep4": "rep 4 question 2",
+    "vrai": 2
+  },
+    {
+    "question": "Question 3",
+      "rep1": "rep 1 question 3",
+      "rep2": "rep 2 question 3",
+      "rep3": "rep 3 question 3",
+      "rep4": "rep 4 question 3",
+    "vrai": 3},
+  {
+    "question": "fin",
+    "rep1": "rep 1 question 3",
+    "rep2": "rep 2 question 3",
+    "rep3": "rep 3 question 3",
+    "rep4": "rep 4 question 3",
+    "vrai": 3
+  }]

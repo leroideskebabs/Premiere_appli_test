@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Règles du jeu"
+        android:background="#4ec2e7"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:drawablePadding="0dp"
+        android:paddingLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/texte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texte"
+        android:textSize="18sp"
+        android:layout_below="@id/titre"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40sp"
+        android:layout_marginTop="40sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/texte">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CBD0D8"
+            android:text="Quitter"
+            android:textColor="#FFF"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#5fbf9a"
+            android:text="Commencer"
+            android:textColor="#FFF"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
